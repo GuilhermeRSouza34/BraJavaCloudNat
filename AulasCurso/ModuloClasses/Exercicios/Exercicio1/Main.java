@@ -24,13 +24,17 @@ public class Main {
             option = scanner.nextInt();
 
             switch (option) {
-                case 6 -> petMachine.hasPet();
+                case 6 -> checkIfHasPetInMachine();
                 case 7 -> setPetInPetMachine();
                 case 8 -> petMachine.removePet();
                 case 9 -> petMachine.wash();
             }
 
         } while (option != 0);
+    }
+
+    private static void checkIfHasPetInMachine() {
+        petMachine.hasPet();
     }
 
     public static void setPetInPetMachine() {
