@@ -34,7 +34,8 @@ public class Main {
     }
 
     private static void checkIfHasPetInMachine() {
-        petMachine.hasPet();
+        var hasPet = petMachine.hasPet();
+        System.out.println("A máquina " + (hasPet ? "tem" : "não tem") + " pet.");
     }
 
     public static void setPetInPetMachine() {
