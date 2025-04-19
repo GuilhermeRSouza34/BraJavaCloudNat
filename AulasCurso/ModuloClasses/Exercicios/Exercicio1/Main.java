@@ -24,8 +24,9 @@ public class Main {
             option = scanner.nextInt();
 
             switch (option) {
-                case 4 -> verifyAgua();
-                case 5 -> verifyShampoo();
+                case 3 -> verifyAgua();
+                case 4 -> verifyShampoo();
+
                 case 6 -> checkIfHasPetInMachine();
                 case 7 -> setPetInPetMachine();
                 case 8 -> petMachine.removePet();
