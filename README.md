@@ -26,5 +26,3 @@ O curso tem como foco preparar os alunos para os desafios do mercado de trabalho
 - **Bradesco**: Um dos maiores bancos do país, trazendo expertise em soluções corporativas de tecnologia.
 
 ---
-
-Fique à vontade para explorar este repositório e acompanhar o conteúdo ao longo do curso. Bons estudos!
